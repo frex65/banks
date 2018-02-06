@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>ReadMe for code challenge day 6</title>
+</head>
+<body>
+<h1>ReadMe for code challenge day 6</h1>
+<h2>Installation</h2>
+<ol>
+<li>Plonk this folder in your server's docs directory.</li>
+<li>Browse to the <code>index.html</code> file to run the tests.</li>
+</ol>
+
+<h2>API</h2>
+<p>The only API call is to <code>reallocate.php</code>. Would omit the <code>.php</code> on live system using .htaccess or OS alternative.</p>
+<p><code>reallocate.php<code> accepts a JSON string in a format similar to this:</p>
+<p><code>{&quot;banks&quot;:[&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;...&quot;]}</code></p>
+
+<h2>Test scenarios</h2>
+<p>If you point your browser at the <a href="runTests.php">runTests.php</a>  page, it will display a set of test scenarios and run them through the API before showing you the result. You can add your own tests by appending them to the <code>testData</code> array at the top of the <code>app/app.js</code> file.</p>
+
+<h2>Dependencies</h2>
+<p>Only jQuery, a copy of which is in the <code>assets</code> directory.</p>
+</body>
+</html>
